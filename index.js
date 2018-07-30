@@ -65,7 +65,7 @@ if(message.content.startsWith(prefix + 'jos')) {
    .setDescription(`**
 __المقدم__ :\n <@${ID}>\n
 __االمعلومات__ :  \`\`\`${args.join(" ")}\`\`\`**`)
-           client.channels.get("473522382401830924").send(embed)
+           client.channels.get("473521544979677214").send(embed)
   message.channel.sendEmbed(embet).then(message => {message.delete(50000)})
             message.react("📩")
 }
